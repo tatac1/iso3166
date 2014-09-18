@@ -20,7 +20,7 @@ library
   exposed-modules:   Data.ISO3166,
                      Data.ISO3166.Parse,
                      Data.ISO3166.Types
-  build-depends:     base ==4.5.*,
+  build-depends:     base >=4.6 && <4.8,
                      text,
                      unordered-containers,
                      bytestring
