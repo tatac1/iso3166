@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                iso3166
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            ISO3166 Data Types
 -- description:         
 homepage:            https://github.com/necrobious/iso3166
@@ -27,7 +27,7 @@ library
 
 --executable mkiso3166 
 --  main-is: mkISO3166.hs
---  build-depends:     base == 4.5.*,
+--  build-depends:     base >=4.6 && <4.8,
 --                     text,
 --                     unordered-containers,
 --                     bytestring
